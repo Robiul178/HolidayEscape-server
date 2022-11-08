@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Saint Martin",
+        "price": 1000,
+        "description": "Saint Martin’s, the one and only coral island of Bangladesh, is a small island measuring eight square kilometers. The visible landmass sinks during the tide. Alternatively called the pearl of the sea, it is about 10 km from the mainland at teknaf. The safest means of transport is the government-owned ferry which takes around two hours one way. Tourists have the option to spend a few hours and return the same day or stay for one or two days. Due to ferry’s timing, one and a half days tour is practical. Relaxation and fun on the picturesque place of blue sky and coconut trees, swimming in crystal blue water, snorkeling in the lagoon, and walking in the fresh air will be a lifetime experience. The seafood with its variety and taste has an appeal. There are a good number of hotels, guest houses, and eateries. There are a scuba diving facility and a sea turtle hatchery. Since it is a small island one can tour the entire area on foot in a few hours. The permanent residents of the island, numbering around 8,000, are all fishermen.",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/saint-mart-slide_2-2020-09-06-5f5453dfe034e.jpg",
+        "rating": 4.4
+    },
+    {
+        "id": 2,
+        "title": "Keokradong",
+        "price": 800,
+        "description": "Keokradong is the highest recognized peak of Bangladesh while Tajingdong is the 2nd, Situated in Ruma Upazila both are surrounded by small hills and mountains. There are two popular trekking routes for trekkers. Trailing the routes, exploring indigenous people and their lifestyle are rare opportunities that you can have in pleasing natural setting of hills and mountains, trees and shrubs, sky and rivers, birds and animals and floating clouds around you. There are hotels in Ruma for overnight stay. If you are lucky, you can get a chance to stay with a tribal family. On the top of Keokradong, there is a small shelter and a signboard put up by Bangladesh Army proclaiming the elevation to be 967 metres (3,173 ft). Height measured by handheld GPS shows it is 986 metres (3,235 ft) with 3m accuracy",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/tajingdong-slide_3-2020-07-03-5eff83e2e033b.jpg",
+        "rating": 4.3
+    },
+    {
+        "id": 3,
+        "title": "Nilgiri",
+        "price": 750,
+        "description": "If you want to touch the clouds, you will have to go to Nilgiri, Bandarban. At Nilgiri, the cloud will come to you, even you can catch it with your hands. On the above, the blue sky, and the white cloud are playing in the mountain of Nilgiri. It is a place of spectacular beauty. Due to Nilgiri, Bandarban is called Darjeeling of Bangladesh. For those who love adventure, the best night in your life may be the Nilgiri. On the way to Nilgiri, you can see the beauty of Bandarban. Nilgiri is a place with the combination of the tallest peak, the tribal village with a vibrant culture and colorful lifestyle of the villagers, and the spectacular natural beauty. This place gives the visitors a feel like floating in the kingdom of clouds. The Nilgiri resort is a popular resort where you can stay Overnight. Travel to Nilgiri through zigzag hilly roads amidst green and blue landscape is a lifetime experience.",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/nilgiri-slide_1-2020-06-08-5eddca6e0e9dc.jpeg",
+        "rating": 4.3
+    },
+    {
+        "id": 4,
+        "title": "Cox's Bazar",
+        "price": 1200,
+        "description": "Cox's Bazar is a city, fishing port, tourism center, and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it is infamous for the largest refugee camp in the world. It is located 150 km (93 mi) south of the divisional headquarter city of Chittagong. Cox's Bazar is also known by the name Panowa, which translates literally as yellow flower. Another old name was Palongkee.The modern Cox's Bazar derives its name from Captain Hiram Cox, an officer of the British East India Company, a Superintendent of Palongkee outpost. To commemorate his role in refugee rehabilitation work, a market was established and named after him.",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/coxs-bazar-slide_2-2020-07-04-5f0011b1b901d.jpg",
+        "rating": 4.4
+    },
+    {
+        "id": 5,
+        "title": "Nafakhum",
+        "price": 695,
+        "description": "Nafakhum, the most beautiful waterfall in Bangladesh, is situated in the deep forest of Bandarban. The fall is created when the wild hilly river Sangu suddenly falls down. It is a perfect place for adventure lovers as well as nature lovers. You need to walk for about 2-3 hours from Remakri of Thanchi Upazila to reach the spot.The falls are located in a remote area two hours' walking distance from Remakree Bazar, Thanchi Upazila, Bandarban District. In the rainy season, while water level increases, navigation by boat to Ngafakhong is about 20-25 minutes journey which can be hired from Remaikree estuary. Remakree is located three hours by boat on the Sangu River from Tindu, which is itself three hours by boat from Thanchi. Ngfa-Khong is very popular as a tourist destination. But due to the increasing number of mass touring the surrounding ecology has been deteriorated these days.",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/nafakhum-slide_3-2020-06-15-5ee779d852f1f.jpg",
+        "rating": 4.4
+    },
+    {
+        "id": 6,
+        "title": "Tea Garden's Of Srimangal",
+        "price": 700,
+        "description": "Nafakhum, the most beautiful waterfall in Bangladesh, is situated in the deep forest of Bandarban. The fall is created when the wild hilly river Sangu suddenly falls down. It is a perfect place for adventure lovers as well as nature lovers. You need to walk for about 2-3 hours from Remakri of Thanchi Upazila to reach the spot.The falls are located in a remote area two hours' walking distance from Remakree Bazar, Thanchi Upazila, Bandarban District. In the rainy season, while water level increases, navigation by boat to Ngafakhong is about 20-25 minutes journey which can be hired from Remaikree estuary. Remakree is located three hours by boat on the Sangu River from Tindu, which is itself three hours by boat from Thanchi. Ngfa-Khong is very popular as a tourist destination. But due to the increasing number of mass touring the surrounding ecology has been deteriorated these days.",
+        "image": "https://beautifulbangladesh.gov.bd/storage/backend/images/upload/slide/tea-garden-slide_1-2020-06-16-5ee8cf0f35eab.jpg",
+        "rating": 4.4
+    }
+]
