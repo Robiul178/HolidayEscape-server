@@ -14,23 +14,23 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.ceo0gle.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-
-
 async function run() {
     try {
-        const placeCollection = client.db.apply('holidayEscape').collection('place')
+        const userCollection = client.db('simpleNode').collection('users');
 
-        app.get('/place', async (req, res) => {
-            const query = {}
-            const cursor = placeCollection.find(query);
-            const seplacervice = await cursor.toArray();
-            res.send(place)
-        })
+        const user = {
+            name: 'testing',
+            email: 'any@gmail.com'
+        }
+        const result = await userCollection.insertOne(user);
+        console.log(result)
+
     }
     finally {
 
     }
 }
+run().catch(err => console.log(err))
 
 
 
