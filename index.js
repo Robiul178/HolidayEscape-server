@@ -18,12 +18,23 @@ async function run() {
     try {
         const userCollection = client.db('simpleNode').collection('users');
 
-        const user = {
-            name: 'testing',
-            email: 'any@gmail.com'
-        }
-        const result = await userCollection.insertOne(user);
-        console.log(result)
+
+
+        app.get('/reviews', async (req, res) => {
+            const query = {};
+            const cursor = userCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews)
+        });
+
+
+
+        app.post('/review', async (req, res) => {
+            const review = req.body;
+            console.log(review);
+            const result = await userCollection.insertOne(review)
+            res.send(result)
+        })
 
     }
     finally {
