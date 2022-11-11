@@ -18,8 +18,6 @@ async function run() {
     try {
         const userCollection = client.db('simpleNode').collection('users');
 
-
-
         app.get('/reviews', async (req, res) => {
             console.log(req.query)
             let query = {};
@@ -37,10 +35,11 @@ async function run() {
 
         app.post('/review', async (req, res) => {
             const review = req.body;
-            console.log(review);
+            // console.log(review);
             const result = await userCollection.insertOne(review)
             res.send(result)
         })
+
 
         app.delete('/reviews/:id', async (req, res) => {
             const id = req.params.id;
@@ -49,6 +48,13 @@ async function run() {
             const result = await userCollection.deleteOne(query);
             res.send(result)
             // console.log(result)
+        })
+
+
+        app.post('/services', async (req, res) => {
+            const service = req.body;
+            const result = await userCollection.insertOne(service);
+            res.send(result)
         })
 
     }
