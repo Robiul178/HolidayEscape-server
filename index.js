@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express();
 require('dotenv').config();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 
@@ -21,7 +21,13 @@ async function run() {
 
 
         app.get('/reviews', async (req, res) => {
-            const query = {};
+            console.log(req.query)
+            let query = {};
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
             const cursor = userCollection.find(query);
             const reviews = await cursor.toArray();
             res.send(reviews)
@@ -34,6 +40,15 @@ async function run() {
             console.log(review);
             const result = await userCollection.insertOne(review)
             res.send(result)
+        })
+
+        app.delete('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            // console.log(id, 'trying to delete')
+            const query = { _id: ObjectId(id) }
+            const result = await userCollection.deleteOne(query);
+            res.send(result)
+            // console.log(result)
         })
 
     }
@@ -69,6 +84,7 @@ app.get("/services/:id", (req, res) => {
     }
     res.send(getSingleItem);
 });
+
 
 
 app.listen(port, () => {
