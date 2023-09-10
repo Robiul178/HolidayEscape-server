@@ -60,6 +60,8 @@ async function run() {
             console.log(result, 'from add service')
         });
 
+
+
         app.get('/service', async (req, res) => {
             console.log(req.query)
             let query = {};
